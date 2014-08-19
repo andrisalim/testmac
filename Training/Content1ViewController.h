@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  Content1ViewController.h
 //  Training
 //
 //  Created by prk on 7/17/14.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface Content1ViewController : UIViewController
 
 @end

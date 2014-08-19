@@ -24,6 +24,13 @@
 		051B7F6019776CB0003811A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 051B7F3819776CB0003811A4 /* Foundation.framework */; };
 		051B7F6819776CB0003811A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 051B7F6619776CB0003811A4 /* InfoPlist.strings */; };
 		051B7F6B19776CB0003811A4 /* TrainingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 051B7F6A19776CB0003811A4 /* TrainingTests.m */; };
+		051B7F761977824A003811A4 /* Adress.m in Sources */ = {isa = PBXBuildFile; fileRef = 051B7F751977824A003811A4 /* Adress.m */; };
+		051B7F79197782A5003811A4 /* PhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 051B7F78197782A5003811A4 /* PhoneNumber.m */; };
+		051B7F7C197782CF003811A4 /* Customer.m in Sources */ = {isa = PBXBuildFile; fileRef = 051B7F7B197782CF003811A4 /* Customer.m */; };
+		051B7F7F197787AF003811A4 /* CustomerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051B7F7E197787AF003811A4 /* CustomerTableViewController.m */; };
+		051B7F8E1977B839003811A4 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051B7F8D1977B839003811A4 /* ProfileViewController.m */; };
+		051B7F911977D18E003811A4 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 051B7F901977D18E003811A4 /* pencil.png */; };
+		051B7F941977D228003811A4 /* Content1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051B7F931977D228003811A4 /* Content1ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,19 @@
 		051B7F6719776CB0003811A4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		051B7F6919776CB0003811A4 /* TrainingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainingTests.h; sourceTree = "<group>"; };
 		051B7F6A19776CB0003811A4 /* TrainingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainingTests.m; sourceTree = "<group>"; };
+		051B7F741977824A003811A4 /* Adress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adress.h; sourceTree = "<group>"; };
+		051B7F751977824A003811A4 /* Adress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Adress.m; sourceTree = "<group>"; };
+		051B7F77197782A5003811A4 /* PhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumber.h; sourceTree = "<group>"; };
+		051B7F78197782A5003811A4 /* PhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneNumber.m; sourceTree = "<group>"; };
+		051B7F7A197782CF003811A4 /* Customer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer.h; sourceTree = "<group>"; };
+		051B7F7B197782CF003811A4 /* Customer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer.m; sourceTree = "<group>"; };
+		051B7F7D197787AF003811A4 /* CustomerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerTableViewController.h; sourceTree = "<group>"; };
+		051B7F7E197787AF003811A4 /* CustomerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerTableViewController.m; sourceTree = "<group>"; };
+		051B7F8C1977B839003811A4 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		051B7F8D1977B839003811A4 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		051B7F901977D18E003811A4 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
+		051B7F921977D228003811A4 /* Content1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content1ViewController.h; sourceTree = "<group>"; };
+		051B7F931977D228003811A4 /* Content1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content1ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +146,18 @@
 				051B7F5419776CB0003811A4 /* ViewController.h */,
 				051B7F5519776CB0003811A4 /* ViewController.m */,
 				051B7F3D19776CB0003811A4 /* Supporting Files */,
+				051B7F741977824A003811A4 /* Adress.h */,
+				051B7F751977824A003811A4 /* Adress.m */,
+				051B7F77197782A5003811A4 /* PhoneNumber.h */,
+				051B7F78197782A5003811A4 /* PhoneNumber.m */,
+				051B7F7A197782CF003811A4 /* Customer.h */,
+				051B7F7B197782CF003811A4 /* Customer.m */,
+				051B7F7D197787AF003811A4 /* CustomerTableViewController.h */,
+				051B7F7E197787AF003811A4 /* CustomerTableViewController.m */,
+				051B7F8C1977B839003811A4 /* ProfileViewController.h */,
+				051B7F8D1977B839003811A4 /* ProfileViewController.m */,
+				051B7F921977D228003811A4 /* Content1ViewController.h */,
+				051B7F931977D228003811A4 /* Content1ViewController.m */,
 			);
 			path = Training;
 			sourceTree = "<group>";
@@ -133,6 +165,7 @@
 		051B7F3D19776CB0003811A4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				051B7F901977D18E003811A4 /* pencil.png */,
 				051B7F3E19776CB0003811A4 /* Training-Info.plist */,
 				051B7F3F19776CB0003811A4 /* InfoPlist.strings */,
 				051B7F4219776CB0003811A4 /* main.m */,
@@ -240,6 +273,7 @@
 				051B7F4D19776CB0003811A4 /* Default-568h@2x.png in Resources */,
 				051B7F5019776CB0003811A4 /* MainStoryboard_iPhone.storyboard in Resources */,
 				051B7F5319776CB0003811A4 /* MainStoryboard_iPad.storyboard in Resources */,
+				051B7F911977D18E003811A4 /* pencil.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +311,12 @@
 				051B7F4319776CB0003811A4 /* main.m in Sources */,
 				051B7F4719776CB0003811A4 /* AppDelegate.m in Sources */,
 				051B7F5619776CB0003811A4 /* ViewController.m in Sources */,
+				051B7F761977824A003811A4 /* Adress.m in Sources */,
+				051B7F79197782A5003811A4 /* PhoneNumber.m in Sources */,
+				051B7F7C197782CF003811A4 /* Customer.m in Sources */,
+				051B7F7F197787AF003811A4 /* CustomerTableViewController.m in Sources */,
+				051B7F8E1977B839003811A4 /* ProfileViewController.m in Sources */,
+				051B7F941977D228003811A4 /* Content1ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +500,7 @@
 				051B7F7019776CB0003811A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		051B7F7119776CB0003811A4 /* Build configuration list for PBXNativeTarget "TrainingTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +509,7 @@
 				051B7F7319776CB0003811A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
